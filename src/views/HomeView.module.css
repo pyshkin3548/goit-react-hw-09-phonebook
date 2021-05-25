@@ -1,0 +1,25 @@
+.wrapper {
+  background: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.5),
+      rgba(47, 48, 58, 0.5)
+    ),
+    url(https://www.comreg.ie/media/2019/04/Printed-Directories-1024x669.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  min-height: calc(100vh - 50px);
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  padding-top: 140px;
+  font-weight: 500px;
+  font-size: 48px;
+  text-align: center;
+  color: #ffffff;
+}
